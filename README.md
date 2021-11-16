@@ -12,7 +12,6 @@ Models Used:
 - Long Short Term Memory (LSTM) Deep Learning Neural Network
 - Linear/Logistic Regression
 - Autoregressive Integrated Moving Average (ARIMA)
-- Random Forest
-- KNN Regression
 
 Data: Daily time series data for BTC and ETH has been taken from https://www.alphavantage.co/ API.
+

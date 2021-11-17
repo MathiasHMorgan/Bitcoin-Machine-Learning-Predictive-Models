@@ -10,7 +10,7 @@ Models Used:
 
 - Monte Carlo Simulation
 - Long Short Term Memory (LSTM) Deep Learning Neural Network
-- Linear/Logistic Regression
+- Linear Regression
 - Autoregressive Integrated Moving Average (ARIMA)
 
 Data: Daily time series data for BTC and ETH has been taken from https://www.alphavantage.co/ API.

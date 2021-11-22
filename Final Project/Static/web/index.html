@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Bitcoin Machine Learning Price Prediction Models</title>
+	<!--
+
+    Template 2106 Soft Landing
+
+	http://www.tooplate.com/view/2106-soft-landing
+
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+ 
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-style.css">
+     
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container" style="background-color:white">
+
+               <div style = "justify-content:center">
+                    
+                    <!-- Title -->
+                    <h1 style = "text-align:center;color:black">Bitcoin Machine Learning Price Prediction Models</h>
+               </div>
+          </div>
+          <div class="container" style = "text-align:center">
+               <!-- MENU LINKS -->
+               
+
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h1>The purpose of this project is to test the performance of 4 different machine learnings models to predect the price of bitcoin and compare the models performance with the actual price over a time series</h1>
+                            
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FEATURE -->
+     <section id="feature" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h1>Model Description</h1>
+                         </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <ul class="nav nav-tabs" role="tablist">
+                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Linear Regression</a></li>
+                              <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">ARIMA</a></li>
+                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Monte Carlo Simulation</a></li>
+                              <li><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Neural Network: LSTM</a></li>
+                         </ul>
+
+                         <div class="tab-content">
+                              <div class="tab-pane active clearfix" id="tab01" role="tabpanel" >
+                                   <row class="d-flex align-items-center">
+                                   <div class="tab-pane-item col-md-6 col-sm-6">
+                                        <h2>Linear Regression</h2>
+                                        <p>Linear Regression is a basic form of machine learning and predictive modelling. Derived from the the equation y = mx + b and plotted on a cartesian plane, y being the predicted variable and x being one or more variables, linear regression fits a straight line through the data called the "line of best fit" and generates predictions for x and y on the cartesian plane.</p>
+                                   </div>
+                                   <div class="pull-right col-md-6 col-sm-6">
+                                        <img src="images/linear-regression.png" class="img-responsive" alt="Linear Regression">                             
+                                   </div>
+                                   </row>
+                              </div>
+
+                              <div class="tab-pane clearfix" id="tab02" role="tabpanel" >
+                                   <row class="d-flex align-items-center">
+                                   <div class="tab-pane-item col-md-6 col-sm-6">
+                                        <h2>ARIMA</h2>
+                                        <p>Autoregressive Integrated Moving Average (ARIMA) is a form of regression analysis that is used for time series forecasting. it calculates the value of the dependent variable (y) against other changing independent variables over time (x). It examines the differences between values over the time series rather than the actual value it self. Autoregression (AR) refers to changing or lagged variables in the model, Integrated (I) refers to the calculated differences of fixed values and Moving Average (MA) refers to the application of a moving average to lagged obervations.</p>
+                                   </div>
+                                   <div class="pull-right col-md-6 col-sm-6">
+                                        <img src="images/arima.png" class="img-responsive" alt="ARIMA">                             
+                                   </div>
+                                   </row>
+                              </div>
+
+                              <div class="tab-pane clearfix" id="tab03" role="tabpanel" >
+                                   <row class="d-flex align-items-center">
+                                   <div class="tab-pane-item col-md-6 col-sm-6">
+                                        <h2>Monte Carlo Simulation</h2>
+                                        <p>A Monte Carlo Simulation is a method of probability analysis that seeks to give a range of possible outcomes of future events. In this instance the Monte Carlo method was used to conduct a "random price walk" of 1000 simulations using normal distribution from one period to the next over a 200 days to determine the future possible prices of Bitcoin. The arithmetic average of all 1000 simulations was taken at each time interval then plotted against the actual price of Bitcoin over the 200 day period.</p>
+                                   </div>
+                                   <div class="pull-right col-md-6 col-sm-6">
+                                        <img src="images/monte-carlo.png" class="img-responsive" alt="Monte Carlo">                             
+                                   </div>
+                                   </row>
+                              </div>
+
+                              <div class="tab-pane clearfix" id="tab04" role="tabpanel" >
+                                   <row class="d-flex align-items-center">
+                                   <div class="tab-pane-item col-md-6 col-sm-6">
+                                        <h2>Neural Network: LSTM</h2>
+                                        <p>A Long Short-Term Memory (LSTM) is a kind of Recurrent Neural Network (RNN) that is able to learn sequentially. It has the ability to propogate forwards and backwards through data and process not only single data points but sequences of data, essentially LSTM's are capable of remembering previous information learned by the model</p>
+                                   </div>
+                                   <div class="pull-right col-md-6 col-sm-6">
+                                        <img src="images/lstm.jpg" class="img-responsive" alt="LSTM">                             
+                                   </div>
+                                   </row>
+                              </div>
+                                   
+                              </div>
+                         </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <div class="feature-image">
+                                               
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Dashboard 1 -->
+     <section id="feature" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                     <div class="section-title">
+                              <h1 style="text-align:center"> Time Series Analysed</h1>
+                      
+          <div class='tableauPlaceholder' id='viz1637405770193' style='position: relative'>
+               <noscript><a href='#'>
+                    <img alt='Dashboard 4 ' 
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3B&#47;3BQ236GK5&#47;1_rss.png' style='border: none' />
+                    </a>
+               </noscript>
+               <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='path' value='shared&#47;3BQ236GK5' /> 
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3B&#47;3BQ236GK5&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-GB' />
+                    <param name='filter' value='publish=yes' />
+               </object></div> 
+               <script type='text/javascript'> 
+               var divElement = document.getElementById('viz1637405770193');                    
+               var vizElement = divElement.getElementsByTagName('object')[0]; 
+               if ( divElement.offsetWidth > 800 ) { 
+                    vizElement.style.width='1200px';
+                    vizElement.style.minHeight='500px';
+                    vizElement.style.height='auto';
+               } else if ( divElement.offsetWidth > 500 ) {
+                     vizElement.style.width='1200px';
+                    vizElement.style.minHeight='500px';
+                    vizElement.style.height='auto';
+               } else { 
+                    vizElement.style.width='100%';
+                    // vizElement.style.height='727px';
+                    vizElement.style.height='auto';
+                    } 
+                    var scriptElement = document.createElement('script'); 
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+               </script>                           
+              
+     </section>
+     <!-- Dashboard 2 -->
+     <section >
+          <div class="container">
+               <div class="row">
+                     <div class="section-title">
+                              <h1 style="text-align:center">Linear Regression</h1>
+                      
+          <div class='tableauPlaceholder' id='viz1637399820843' style='position: relative'>
+               <noscript><a href='#'>
+                    <img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;LinearRegressionDashboard&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='LinearRegressionDashboard&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Li&#47;LinearRegressionDashboard&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>
+                    <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1637399820843');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) {
+                          vizElement.style.width='1200px';
+                          vizElement.style.minHeight='500px';
+                          vizElement.style.height='auto';
+                         } 
+                    else if ( divElement.offsetWidth > 500 ) { 
+                         vizElement.style.width='1200px';
+                         vizElement.style.minHeight='500px';
+                    vizElement.style.height='auto';} 
+                    else { 
+                         vizElement.style.width='100%';
+                         vizElement.style.minHeight='500px';
+                         vizElement.style.height='auto';} 
+                              var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+
+                    </div></div></div>
+</section>
+
+ <!-- Dashboard 3 -->
+     <section >
+          <div class="container">
+               <div class="row">    
+
+                    <div class="section-title">
+                              <h1 style="text-align:center">ARIMA</h1>
+
+          <div class='tableauPlaceholder' id='viz1637495428744' style='position: relative'>
+               <noscript><a href='#'>
+                    <img alt='Dashboard 5 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AR&#47;ARIMADashboard&#47;Dashboard5&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ARIMADashboard&#47;Dashboard5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;AR&#47;ARIMADashboard&#47;Dashboard5&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                
+                    <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1637495428744');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    if ( divElement.offsetWidth > 800 ) { 
+                          vizElement.style.width='1200px';
+                          vizElement.style.height='500px';
+                         } 
+                    else if ( divElement.offsetWidth > 500 ) { 
+                         vizElement.style.width='1200px';
+                         vizElement.style.height='500px';
+                         } 
+                    else { 
+                         vizElement.style.width='100%';
+                         vizElement.style.height='500px';
+                         }                     
+                              var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+                    </div></div></div>
+     </section>
+
+     <!-- Dashboard 4 -->
+     <section >
+          <div class="container">
+               <div class="row">
+
+                    <div class="section-title">
+                              <h1 style="text-align:center">Monte Carlo Simulation</h1>
+
+                              <div class='tableauPlaceholder' id='viz1637544535050' style='position: relative'>
+                                   <noscript><a href='#'>
+                                        <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mo&#47;MonteCarloDashboard&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MonteCarloDashboard&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mo&#47;MonteCarloDashboard&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                
+                                        <script type='text/javascript'>                    
+                                        var divElement = document.getElementById('viz1637544535050');                    
+                                        var vizElement = divElement.getElementsByTagName('object')[0];                    
+                                        if ( divElement.offsetWidth > 800 ) { 
+                                             vizElement.style.width='1200px';
+                                             vizElement.style.height='500px';
+                                             } 
+                                        else if ( divElement.offsetWidth > 500 ) { 
+                                             vizElement.style.width='1200px';
+                                             vizElement.style.height='500px';
+                                             } 
+                                        else { 
+                                             vizElement.style.width='100%';
+                                             vizElement.style.height='500px';
+                                             }                     
+                                             
+                                             var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);  </script>      
+                         </div></div></div>
+          </section>
+
+     <!-- Dashboard 5 -->
+     <section >
+          <div class="container">
+               <div class="row">
+
+                    <div class="section-title">
+                         <h1 style="text-align:center">Neural Network: LSTM</h1>
+
+                         <div class='tableauPlaceholder' id='viz1637545018668' style='position: relative'>
+                              <noscript><a href='#'>
+                                   <img alt='LSTM DashBoard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TR&#47;TR6G4CRMH&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;TR6G4CRMH' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TR&#47;TR6G4CRMH&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                
+                                   <script type='text/javascript'>                    
+                                   var divElement = document.getElementById('viz1637545018668');                    
+                                   var vizElement = divElement.getElementsByTagName('object')[0];                    
+                                   if ( divElement.offsetWidth > 800 ) { 
+                                        vizElement.style.width='1200px';
+                                        vizElement.style.height='500px';
+                                        } 
+                                   else if ( divElement.offsetWidth > 500 ) { 
+                                        vizElement.style.width='1200px';
+                                        vizElement.style.height='500px';
+                                        } 
+                                   else { 
+                                        vizElement.style.width='100%';
+                                        vizElement.style.height='500px';
+                                        }                     
+                                        var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);  </script>
+                         </div></div></div>
+               </section>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>

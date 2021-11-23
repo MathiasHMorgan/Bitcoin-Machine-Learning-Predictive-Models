@@ -1,4 +1,4 @@
-# Final-Project---Crypto-Predictive-Models
+# Bitcoin Machine Learning Predictive Models
 
 Objective: This project will seek to evaluate the performance of price predictive models for both Bitcoin (BTC) using supervised and unsupervised machine learning models. 
 

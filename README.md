@@ -12,4 +12,5 @@ Monte Carlo Simulation
 - Long Short Term Memory (LSTM) Deep Learning Neural Network
 - Linear Regression
 - Autoregressive Integrated Moving Average (ARIMA)
-- Data: Daily time series data for BTC and ETH has been taken from https://www.alphavantage.co/ API.
+
+Data: Daily time series data for BTC and ETH has been taken from https://www.alphavantage.co/ API.

@@ -8,7 +8,7 @@ The final output of our analysis will be to visually compare the performance of 
 
 Models Used:
 
-Monte Carlo Simulation
+- Monte Carlo Simulation
 - Long Short Term Memory (LSTM) Deep Learning Neural Network
 - Linear Regression
 - Autoregressive Integrated Moving Average (ARIMA)
